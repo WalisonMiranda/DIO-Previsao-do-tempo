@@ -1,0 +1,29 @@
+.container-fluid {
+  margin: 0;
+  padding: 32px 0 0;
+
+  .bookmarks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+
+  }
+}
+
+.list-content {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+
+  a {
+    flex-grow: 1;
+    font-size: 1.4rem;
+  }
+
+  button {
+    height: 40px;
+    width: 40px;
+  }
+}
+
